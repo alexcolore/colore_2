@@ -1,0 +1,221 @@
+<directorio>
+	<sucursal>
+		<city>1</city>
+		<line>1</line>
+		<title>Magno Centro Joyero</title>
+		<dir>1° Piso local 1003-1006</dir>
+		<tel>(01 33) 35 62 20 89</tel>
+		<tel-2>(01 33) 36 18 47 14</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>1</line>
+		<title>Magno Centro Joyero</title>
+		<dir>3° Piso local 3095-3114,3127</dir>
+		<tel>(01 33) 36 17 80 02</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>1</line>
+		<title>Galería Joyera</title>
+		<dir>3° Piso local 322-323</dir>
+		<tel>(01 33) 38 37 13 22</tel>
+		<tel-2>(01 33) 36 17 39 12</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>1</line>
+		<title>Galeana #31</title>
+		<dir>Col. Centro</dir>
+		<tel>(01 33) 36 58 04 41</tel>
+		<tel-2>(01 33) 36 58 24 11</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>1</line>
+		<title>Álvaro Obregón #106</title>
+		<dir>Col. San Juan de dios</dir>
+		<tel>(01 33) 36 17 48 46</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>2</city>
+		<line>1</line>
+		<title>Venustiano Carranza #47</title>
+		<dir>Col. Centro Cuauhtemoc</dir>
+		<tel>(55) 5801 9887</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>2</city>
+		<line>1</line>
+		<title>Uruguay #72-B</title>
+		<dir>Col. Centro Cuauhtemoc</dir>
+		<tel>(55) 32 34 6340</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>2</city>
+		<line>1</line>
+		<title>Palma #10</title>
+		<dir>Col. Centro Cuauhtemoc</dir>
+		<tel>(55) 5518 3379</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>3</city>
+		<line>1</line><!-- tODAS-->
+		<title>Calle 20 de Enero #141</title>
+		<dir>Col. Centro</dir>
+		<tel>(477) 688 9985</tel>
+		<tel-2></tel-2>
+	</sucursal>
+	
+	<sucursal>
+		<city>3</city>
+		<line>2</line><!-- pURO aCERO -->
+		<title>Hidalgo #127-A</title>
+		<dir>Col. Centro</dir>
+		<tel>(477) 716 3390</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+
+<!--- Chapa -->
+	<sucursal>
+		<city>1</city>
+		<line>3</line>
+		<title>Magno Centro Joyero</title>
+		<dir>3° piso local 3096-3113-3128</dir>
+		<tel>(01 33) 36 17 34 03</tel>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>3</line>
+		<title>Magno Centro Joyero</title>
+		<dir>1° piso local 1001</dir>
+		<tel>(01 33) 16 57 9646</tel>
+	</sucursal>
+
+<!--- Chapa -->
+
+
+	<sucursal>
+		<city>1</city>
+		<line>4</line>
+		<title>Magno Centro Joyero</title>
+		<dir>3° piso local 3189-3190-3188</dir>
+		<tel>(01 33) 36 17 74 10</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>5</line>
+		<title>Magno Centro Joyero</title>
+		<dir>3° piso local 3187</dir>
+		<tel>(01 33) 3618 8470</tel>
+		<tel-2></tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Magno Centro Joyero</title>
+		<dir>1° piso local 1001 Y 1002</dir>
+		<tel>(01 33) 16 57 9646</tel>
+		<tel-2></tel-2>
+	</sucursal>
+	
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Magno Centro Joyero</title>
+		<dir>2° piso local 2024 y 2025</dir>
+		<tel>(01 33) 36 17 68 57</tel>
+		<tel-2>(01 33) 36 17 68 57</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Magno Centro Joyero</title>
+		<dir>3° piso local 3250</dir>
+		<tel>(01 33) 36 17 11 61</tel>
+		<tel-2>(01 33) 36 17 11 61</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Magno Centro Joyero</title>
+		<dir>4° piso local 4011 y 4012</dir>
+		<tel>(01 33) 36 17 15 93</tel>
+		<tel-2>(01 33) 36 17 15 93</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Álvaro Obregón #273</title>
+		<dir>Col. San Juan de Dios</dir>
+		<tel>(01 33) 36 17 60 31</tel>
+		<tel-2>(01 33) 36 17 60 31</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>2</line>
+		<title>Morelos #408</title>
+		<dir>Col. Centro</dir>
+		<tel>(01 33) 10 08 8807</tel>
+		<tel-2>(01 33) 10 08 8808</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>6</line>
+		<title>Paseo del Hospicio #29-A</title>
+		<dir>Col. San Juan de Dios</dir>
+		<tel>(01 33) 36 17 26 64</tel>
+		<tel-2>(01 33) 36 17 26 64</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>6</line>
+		<title>Álvaro Obregón #275</title>
+		<dir>Col. San Juan de Dios</dir>
+		<tel>(01 33) 36 17 60 63</tel>
+		<tel-2>(01 33) 36 17 60 63</tel-2>
+	</sucursal>
+
+	<sucursal>
+		<city>1</city>
+		<line>6</line>
+		<title>Independencia #472</title>
+		<dir>Col. San Juan de Dios</dir>
+		<tel>(01 33) 36 13 53 12</tel>
+		<tel-2>(01 33) 36 13 53 12</tel-2>
+	</sucursal>
+		
+	<sucursal>
+		<city>4</city>
+		<line>2</line>
+		<title>Calle Sonora #402 Sur</title>
+		<dir>Col. Centro</dir>
+		<tel>(644) 258 3702</tel>
+		<tel-2>(644) 179 9815</tel-2>
+	</sucursal>
+
+</directorio>

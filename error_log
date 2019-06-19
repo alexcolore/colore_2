@@ -1,0 +1,35 @@
+[18-May-2019 14:28:14 America/Chicago] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 1
+[18-May-2019 14:28:14 America/Chicago] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 1
+[18-May-2019 14:28:14 America/Chicago] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 1
+[18-May-2019 14:28:19 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:19 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:19 America/Chicago] PHP Fatal error:  require(): Failed opening required 'slider.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:21 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:21 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:21 America/Chicago] PHP Fatal error:  require(): Failed opening required 'slider.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:34 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:34 America/Chicago] PHP Warning:  require(slider.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:34 America/Chicago] PHP Fatal error:  require(): Failed opening required 'slider.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 2
+[18-May-2019 14:28:46 America/Chicago] PHP Warning:  require(about.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 3
+[18-May-2019 14:28:46 America/Chicago] PHP Warning:  require(about.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 3
+[18-May-2019 14:28:46 America/Chicago] PHP Fatal error:  require(): Failed opening required 'about.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 3
+[18-May-2019 14:29:02 America/Chicago] PHP Warning:  require(trends.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 5
+[18-May-2019 14:29:02 America/Chicago] PHP Warning:  require(trends.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 5
+[18-May-2019 14:29:02 America/Chicago] PHP Fatal error:  require(): Failed opening required 'trends.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 5
+[18-May-2019 14:29:09 America/Chicago] PHP Warning:  require(lines.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 6
+[18-May-2019 14:29:09 America/Chicago] PHP Warning:  require(lines.php): failed to open stream: No such file or directory in /home/coloreaccesorios/public_html/index.php on line 6
+[18-May-2019 14:29:09 America/Chicago] PHP Fatal error:  require(): Failed opening required 'lines.php' (include_path='.:/opt/php54/lib/php') in /home/coloreaccesorios/public_html/index.php on line 6
+[20-May-2019 11:26:02 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'coloreaccesorios'@'localhost' to database '2083' in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:26:35 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:29:58 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:30:58 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:34:43 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:36:14 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:36:41 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:38:16 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:39:02 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:40:43 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 11:41:24 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'coloreaccesorios'@'ns8357.websitewelcome.com' (using password: YES) in /home/coloreaccesorios/public_html/form.php on line 12
+[20-May-2019 14:37:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/coloreaccesorios/public_html/form.php on line 21
+[20-May-2019 14:42:54 America/Chicago] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/coloreaccesorios/public_html/form.php on line 26
+[22-May-2019 14:07:29 America/Chicago] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/coloreaccesorios/public_html/form.php on line 162
