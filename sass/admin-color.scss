@@ -1,0 +1,51 @@
+.colore-blue{
+    color: #003da6;
+}
+.colore-red{
+    color: #ff4438;
+}
+.colore-green{
+    color: #00bbb4;
+}
+.colore-yellow{
+    color: #f5b335;
+}
+.colore-pink{
+    color: #f27fb2;
+}
+
+.bg-colore-blue{
+    background-color: #003da6;
+}
+.bg-colore-red{
+    background-color: #ff4438;
+}
+.bg-colore-green{
+    background-color: #00bbb4;
+}
+.bg-colore-yellow{
+    background-color: #f5b335;
+}
+.bg-colore-pink{
+    background-color: #f27fb2;
+}
+
+
+.btn-colore-blue{
+    background-color: #003da6;
+    &:hover{
+        background-color: #005eff; 
+    }
+}
+.btn-colore-red{
+    background-color: #ff4438;
+}
+.btn-colore-green{
+    background-color: #00bbb4;
+}
+.btn-colore-yellow{
+    background-color: #f5b335;
+}
+.btn-colore-pink{
+    background-color: #f27fb2;
+}

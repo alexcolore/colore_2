@@ -1,0 +1,45 @@
+
+
+header {
+    z-index: 17;	
+	.fa-bars{
+	color: $color-white;
+	font-size: 1.3em;
+	}
+}
+
+
+.logo-colore{
+	display: flex;
+	flex-basis: 180px;
+	img{
+		width: 180px;
+	}
+}
+
+
+
+.navbar-brand{
+	img{
+		width: 160px;
+	}
+}
+
+
+
+.social{
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			i{
+				padding-left: 16px;
+				color: $color-white;
+			}
+		}
+	}
+}
+
+.padding-colore{
+	padding-top: 80px;
+}

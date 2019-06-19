@@ -1,0 +1,258 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 450px) {
+  #maps-container {
+    height: 100%;
+  }
+  #slider-main {
+    max-height: 100vh;
+  }
+  .nav-item {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+  .navbar-nav {
+    height: 100vh;
+    margin-top: 30%;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  /* Lines Queries */
+  .accesorios-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/accesorios-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .acero-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/acero-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chapa-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/chapa-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aplicaciones-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/aplicaciones-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .microsetting-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/microsetting-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 575px) {
+  #maps-container {
+    height: 100%;
+  }
+  #slider-main {
+    max-height: 100vh;
+  }
+  .nav-item {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+  .navbar-nav {
+    height: 100vh;
+    margin-top: 30%;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  /* Lines Queries */
+  .accesorios-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/accesorios-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .acero-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/acero-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chapa-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/chapa-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aplicaciones-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/aplicaciones-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .microsetting-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/microsetting-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

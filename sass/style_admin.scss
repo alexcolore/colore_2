@@ -1,0 +1,113 @@
+/*
+Company: Colore Accesorios S.A. de C.V.
+Develeper: alejandro.martinez@coloremoda.com
+Version: 1.0
+URL: coloremoda.com.mx;
+*/
+* , *:after, *:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'monopoly_light';
+   
+    src: url('./fonts/monopoly_light.ttf'), /* IE9 Compat Modes */
+       url('./fonts/monopoly_light.ttf') format('truetype'); /* Safari, Android, iOS */
+        font-display: fallback;
+}
+@font-face {
+    font-family: 'monopoly_bold';
+    src: url('./fonts/monopoly_bold.ttf'), /* IE9 Compat Modes */
+       url('./fonts/monopoly_bold.ttf') format('truetype'); /* Safari, Android, iOS */
+        font-display: fallback;
+}
+
+body,html{
+    font-family: 'monopoly_light';
+}
+
+@import 'admin-color.scss';
+img{
+    width: 120px;
+}
+#form-dashboard{
+    height: 100vh;
+    width: 100%;
+    .row{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+}
+form{
+    width: 40%;
+    h4{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    input{
+        border-radius: 0 !important;
+    }
+}
+
+/* Dashboard */
+#logo-dash{
+    width: 38px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+}
+.list-item-avatar{
+    color: white;
+    list-style:none;
+    font-size: 2em;
+
+    :hover{
+        color: white;
+    }
+}
+.list-item-user{
+    color:white;
+    list-style:none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.dash-title{
+    text-transform: uppercase;
+}
+
+#dash-menu{
+
+    ul{
+        li{
+            list-style: none;
+            padding-bottom: 2em;
+            transition: all .3s;
+            a{
+                list-style: none;
+                font-size: 1.26em;
+                color: #e6e6e6;
+                text-decoration: none;
+                transition: all .3s;
+                i{
+                    margin-right: 9px;
+                }
+            }
+            :hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table{
+    i{
+        padding-right: 9px;
+    }
+}

@@ -1,0 +1,21 @@
+.gallery-container{
+	width: 100%;
+	overflow: hidden;
+}
+.card{
+	opacity: 0;
+    border: 1px solid rgb(14, 61, 166);
+    border-radius: 0;
+    transition: all .9s
+}
+.card-body{
+	background-color: $color-white;
+}
+
+.card-title{
+	text-align: end;
+	color: $color-primary;
+}
+.card-text{
+	text-align: end;
+}

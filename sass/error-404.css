@@ -1,0 +1,26 @@
+#error-404 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#error-404 h1 {
+  color: #ff4438;
+  font-size: 12em;
+}
+
+#error-404 h3 {
+  font-size: 2.3em;
+}
+
+#error-404 p {
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=error-404.css.map */

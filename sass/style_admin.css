@@ -1,0 +1,76 @@
+/*
+Company: Colore Accesorios S.A. de C.V.
+Develeper: alejandro.martinez@coloremoda.com
+Version: 1.0
+URL: coloremoda.com.mx;
+*/
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.colore-blue {
+  color: #003da6;
+}
+
+.colore-red {
+  color: #ff4438;
+}
+
+.colore-green {
+  color: #00bbb4;
+}
+
+.colore-yellow {
+  color: #f5b335;
+}
+
+.colore-pink {
+  color: #f27fb2;
+}
+
+.bg-colore-blue {
+  background-color: #003da6;
+}
+
+.bg-colore-blue :hover {
+  background-color: #003da6;
+}
+
+.bg-colore-red {
+  background-color: #ff4438;
+}
+
+.bg-colore-green {
+  background-color: #00bbb4;
+}
+
+.bg-colore-yellow {
+  background-color: #f5b335;
+}
+
+.bg-colore-pink {
+  background-color: #f27fb2;
+}
+
+#form-dashboard {
+  height: 100vh;
+  width: 100%;
+}
+
+#form-dashboard .row {
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  width: 60%;
+}
+/*# sourceMappingURL=style_admin.css.map */

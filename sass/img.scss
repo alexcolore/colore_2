@@ -1,0 +1,68 @@
+.img-colore
+{
+	width: 100%;	
+}
+.img-intro{
+    opacity: 0;
+}
+.logo-gallery{
+    opacity: 0;
+    transition: 0.55s; 
+    max-width: 98px;     
+}
+.logo-diamond{
+    width: 110px;
+    margin: 0 auto;
+}
+.gallery-img{
+    cursor: pointer;
+	transform: scale(1);
+	transition: all .2s;
+	transition-timing-function: ease-out;
+	&:hover{
+		transform: scale(1.16);
+	}
+}
+.accesorios-img{
+    height: 65vh;
+    background-image: url("./img/lineas/accesorios.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}
+
+.acero-img{
+    height: 65vh;
+    background-image: url("./img/lineas/acero.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}
+
+.chapa-img{
+    height: 65vh;
+    background-image: url("./img/lineas/chapa.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}
+
+.aplicaciones-img{
+    height: 65vh;
+    background-image: url("./img/lineas/aplicaciones.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}
+.microsetting-img{
+    height: 65vh;
+    background-image: url("./img/lineas/microsetting.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}

@@ -1,0 +1,109 @@
+/* Trends Anime JS */ 
+.trends-title{
+  opacity: 0;
+}
+.trends-1{
+    opacity: 0;
+}
+.trends-2{
+    opacity: 0;
+}
+.trends-3{
+    opacity: 0;
+}
+.trends-4{
+    opacity: 0;
+}
+.trends-5{
+    opacity: 0;
+}
+.trends-6{
+    opacity: 0;
+}
+
+
+/* Lines Anime JS */ 
+.lines-title{
+  opacity: 0;
+}
+.lines-1{
+    opacity: 0;
+}
+.lines-2{
+    opacity: 0;
+}
+.lines-3{
+    opacity: 0;
+}
+
+
+/* Suscribe Anime JS */ 
+.suscribe-title{
+  opacity: 0;
+}
+.suscribe-sub-title{
+  opacity: 0;
+}
+.suscribe-1{
+    opacity: 0;
+}
+.suscribe-2{
+    opacity: 0;
+}
+.suscribe-3{
+    opacity: 0;
+}
+.suscribe-4{
+    opacity: 0;
+}
+
+
+/* Suscribe Anime JS */ 
+.suc-1{
+    opacity: 0;
+}
+.suc-2{
+    opacity: 0;
+}
+.suc-3{
+    opacity: 0;
+}
+.suc-4{
+    opacity: 0;
+}
+.suc-5{
+    opacity: 0;
+}
+
+
+
+.caption-gallery{
+    opacity: 0;
+    z-index: 0;
+}
+.close-card{
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right:  16px;
+}
+
+.color-line{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    z-index: 1;
+    &:hover{
+       background-color: rgb(0, 61, 166, .8);
+    }
+}
+
+.anime-slider{
+  display: block;
+}
+
+#form-error{
+  opacity: 0;
+}

@@ -1,0 +1,12 @@
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li a {
+  padding-left: 16px;
+}
+
+.list-footer li a {
+  color: gray;
+}
+/*# sourceMappingURL=list.css.map */

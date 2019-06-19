@@ -1,0 +1,968 @@
+#error-404 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#error-404 h1 {
+  color: #ff4438;
+  font-size: 12em;
+}
+
+#error-404 h3 {
+  font-size: 2.3em;
+}
+
+#error-404 p {
+  font-size: 1.3em;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.5em;
+}
+
+p {
+  font-size: 1em;
+  text-align: justify;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.letter-space {
+  letter-spacing: 6px;
+}
+
+/* Oficial Colors*/
+.text-primary-colore {
+  color: #003da6;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #5D5D5D;
+}
+
+.text-yellow {
+  color: #f5b335;
+}
+
+.text-color-gray-light {
+  color: #B3B3B3;
+}
+
+.text-gray-footer {
+  color: #CFCFCF;
+}
+
+.bg-color-primary {
+  background-color: #003da6;
+}
+
+.bg-color-red {
+  background-color: #fc4c41;
+}
+
+.bg-color-gray-light {
+  background-color: #B3B3B3;
+}
+
+.bg-color-gray {
+  background-color: #CFCFCF;
+}
+
+.color-red {
+  color: #ff4438;
+}
+
+.img-colore {
+  width: 100%;
+}
+
+.img-intro {
+  opacity: 0;
+}
+
+.logo-gallery {
+  opacity: 0;
+  -webkit-transition: 0.55s;
+  transition: 0.55s;
+  max-width: 98px;
+}
+
+.logo-diamond {
+  width: 110px;
+  margin: 0 auto;
+}
+
+.gallery-img {
+  cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.gallery-img:hover {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
+}
+
+.accesorios-img {
+  height: 65vh;
+  background-image: url("./img/lineas/accesorios.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.acero-img {
+  height: 65vh;
+  background-image: url("./img/lineas/acero.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.chapa-img {
+  height: 65vh;
+  background-image: url("./img/lineas/chapa.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.aplicaciones-img {
+  height: 65vh;
+  background-image: url("./img/lineas/aplicaciones.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.microsetting-img {
+  height: 65vh;
+  background-image: url("./img/lineas/microsetting.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li a {
+  padding-left: 16px;
+}
+
+.list-footer li a {
+  color: gray;
+}
+
+.gallery-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  opacity: 0;
+  border: 1px solid #0e3da6;
+  border-radius: 0;
+  -webkit-transition: all .9s;
+  transition: all .9s;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-title {
+  text-align: end;
+  color: #003da6;
+}
+
+.card-text {
+  text-align: end;
+}
+
+.form-suscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+input {
+  width: 100%;
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+  background-color: #003da6;
+  border: none;
+  border-radius: 0;
+  line-height: 26px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=submit]:hover {
+  background-color: #005eff;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=submit]:focus {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=submit]:active {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=submit]:not {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus {
+  background-color: #005eff;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+select {
+  font-size: 1em;
+  width: 100%;
+  line-height: 1em;
+}
+
+.custom-select {
+  border: 1px solid #003da6;
+  border-radius: 0;
+  color: #003da6;
+}
+
+.custom-select:focus {
+  border-color: #003da6;
+  -webkit-box-shadow: 0 0 0 #003da6 inset, 0 0 0 #003da6;
+          box-shadow: 0 0 0 #003da6 inset, 0 0 0 #003da6;
+  outline: 0 none;
+}
+
+.form-control {
+  width: 100%;
+  color: black;
+  background-clip: padding-box;
+  border: solid #0e3da6 1px;
+  border-radius: 0;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+  /*box-shadow: 1px 1px 1px 1px $color-primary solid, 1px 1px 1px 1px $color-primary;*/
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0 none;
+  border: solid #005eff 2px;
+}
+
+.btn-colore {
+  color: #fff;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  padding: 6px 16px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn-colore:hover {
+  text-decoration: none;
+  color: #CFCFCF;
+  border-color: #003da6;
+  background-color: #003da6;
+}
+
+#form-error-name {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-lastname {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-mail {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-name-workshop {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-lastname-workshop {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-mail-workshop {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#form-error-phone-workshop {
+  height: 14px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+header {
+  z-index: 17;
+}
+
+header .fa-bars {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.logo-colore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 180px;
+      flex-basis: 180px;
+}
+
+.logo-colore img {
+  width: 180px;
+}
+
+.navbar-brand img {
+  width: 160px;
+}
+
+.social ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social ul li i {
+  padding-left: 16px;
+  color: #fff;
+}
+
+.padding-colore {
+  padding-top: 80px;
+}
+
+/* Slideshow container */
+#slider-main {
+  width: 100%;
+  max-height: 700px;
+}
+
+#slider-main .carousel-indicators {
+  bottom: 10%;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#slider-main .carousel-indicators li, #slider-main .carousel-indicators .active {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+#slider-main .carousel-caption {
+  text-align: left;
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.slider-movil {
+  height: 100vh;
+  width: 130vw;
+}
+
+.slider-img-1 {
+  height: 65vh;
+  background-image: url("./img/slider-main/slider-1.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.slider-img-2 {
+  height: 65vh;
+  background-image: url("./img/slider-main/slider-2.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.slider-img-3 {
+  height: 65vh;
+  background-image: url("./img/slider-main/slider-3.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.slider-img-4 {
+  height: 65vh;
+  background-image: url("./img/slider-main/slider-4.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+.slider-img-5 {
+  height: 65vh;
+  background-image: url("./img/slider-main/slider-5.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1920px 700px;
+}
+
+/* Trends Anime JS */
+.trends-title {
+  opacity: 0;
+}
+
+.trends-1 {
+  opacity: 0;
+}
+
+.trends-2 {
+  opacity: 0;
+}
+
+.trends-3 {
+  opacity: 0;
+}
+
+.trends-4 {
+  opacity: 0;
+}
+
+.trends-5 {
+  opacity: 0;
+}
+
+.trends-6 {
+  opacity: 0;
+}
+
+/* Lines Anime JS */
+.lines-title {
+  opacity: 0;
+}
+
+.lines-1 {
+  opacity: 0;
+}
+
+.lines-2 {
+  opacity: 0;
+}
+
+.lines-3 {
+  opacity: 0;
+}
+
+/* Suscribe Anime JS */
+.suscribe-title {
+  opacity: 0;
+}
+
+.suscribe-sub-title {
+  opacity: 0;
+}
+
+.suscribe-1 {
+  opacity: 0;
+}
+
+.suscribe-2 {
+  opacity: 0;
+}
+
+.suscribe-3 {
+  opacity: 0;
+}
+
+.suscribe-4 {
+  opacity: 0;
+}
+
+/* Suscribe Anime JS */
+.suc-1 {
+  opacity: 0;
+}
+
+.suc-2 {
+  opacity: 0;
+}
+
+.suc-3 {
+  opacity: 0;
+}
+
+.suc-4 {
+  opacity: 0;
+}
+
+.suc-5 {
+  opacity: 0;
+}
+
+.caption-gallery {
+  opacity: 0;
+  z-index: 0;
+}
+
+.close-card {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+.color-line {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+.color-line:hover {
+  background-color: #003da6;
+}
+
+.anime-slider {
+  display: block;
+}
+
+#form-error {
+  opacity: 0;
+}
+
+footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 450px) {
+  #maps-container {
+    height: 100%;
+  }
+  #slider-main {
+    max-height: 100vh;
+  }
+  .nav-item {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+  .navbar-nav {
+    height: 100vh;
+    margin-top: 30%;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  /* Slider Queries */
+  .slider-img-1 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-1.jpg) !important;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-2 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-2.jpg) !important;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-3 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-3.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-4 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-4.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-5 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-5.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Lines Queries */
+  .accesorios-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/accesorios-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .acero-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/acero-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chapa-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/chapa-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aplicaciones-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/aplicaciones-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .microsetting-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/microsetting-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 575px) {
+  #maps-container {
+    height: 100%;
+  }
+  #slider-main {
+    max-height: 100vh;
+  }
+  .nav-item {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+  }
+  .navbar-nav {
+    height: 100vh;
+    margin-top: 30%;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  /* Slider Queries */
+  .slider-img-1 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-1.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-2 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-2.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-3 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-3.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-4 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-4.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-img-5 {
+    height: 100vh !important;
+    background-image: url(./img/slider-movil/slider-5.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Lines Queries */
+  .accesorios-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/accesorios-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .acero-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/acero-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chapa-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/chapa-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aplicaciones-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/aplicaciones-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .microsetting-img {
+    height: 100vh !important;
+    background-image: url(./img/lineas/microsetting-movil.jpg) !important;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #maps-container {
+    height: 75vh;
+  }
+  .gallery-container {
+    max-height: 210px;
+  }
+}
+/*# sourceMappingURL=imports.css.map */
