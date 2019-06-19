@@ -95,6 +95,48 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
+<script>
+    class XMLRes{
+        constructor( method , file , params , rest ){
+            this.method = method;
+            this.file = file;
+            this.params = params;
+            this.rest = rest;
+            this.rest_php = null;
+        }
+
+        CreateXML(){
+            var request = new XMLHttpRequest();
+            request.open( this.method , this.file , true );
+            request.send(this.params);
+            let xml_c_res = this.rest;
+            
+            request.onreadystatechange = function(){
+                if( request.readyState == 4 && request.status == 200 ){
+                    xml_c_res.innerHTML = request.responseText;
+                } 
+            };
+        }
+        
+    }
+        
+    let forms = document.getElementsByTagName('form');
+    for (var i = 0; i < forms.length; i++) {
+        forms[i].addEventListener('submit', function(e){
+            e.preventDefault();
+            let res = document.getElementById('response-test');
+            let form_slider_data = new FormData(this);
+            let ajax_response = new XMLRes( 'POST' , './updates/update-sliderdp.php' , form_slider_data , res );
+            ajax_response.CreateXML();
+        });
+    }
+
+    function holi( yeah ){
+        console.log( JSON.parse(yeah) );
+    }
+
+</script>
+
 </body>
 </html>
